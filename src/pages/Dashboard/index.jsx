@@ -5,8 +5,10 @@ export function Dashboard() {
   return (
     <div className="">
       <header className="bg-red-500 text-white p-4">
-        <div className="container max-w-xl flex justify-between">
-          <img className="w-32 md:w-40" src={LogoVermelha} alt="" />
+        <div className="container max-w-xl flex justify-between items-center">
+          <a href="/" className="hover:transition-all hover:translate-y-1">
+            <img className="w-32 md:w-40" src={LogoVermelha} alt="" />
+          </a>
           <a href="/perfil">
             <UserCircle size={26} weight="bold" />
           </a>
