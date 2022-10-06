@@ -5,7 +5,7 @@ export function CardsTime({ timeA, timeB, match }) {
         {match.time}
       </span>
 
-      <div className="flex space-x-3 justify-center items-center">
+      <div className="flex justify-around items-center space-x-2">
         <span className="uppercase font-semibold">{timeA.slug}</span>
         <img src={`./img/${timeA.slug}.png`} alt="" />
         <input
