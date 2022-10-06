@@ -10,14 +10,14 @@ export function CardsTime({ timeA, timeB, match }) {
         <img src={`./img/${timeA.slug}.png`} alt="" />
         <input
           type="number"
-          className="bg-red-300/[0.2] w-[55px] h-[55px] text-red-700 text-xl"
+          className="bg-red-300/[0.2] w-[55px] h-[55px] text-red-700 text-xl text-center"
         />
 
-        <span className="text-red-500 font-bold">X</span>
+        <span className="text-red-500 font-bold items-center">X</span>
 
         <input
           type="number"
-          className="bg-red-300/[0.2] w-[55px] h-[55px] text-red-700 text-xl"
+          className="bg-red-300/[0.2] w-[55px] h-[55px] text-red-700 text-xl text-center"
         />
 
         <img src={`./img/${timeB.slug}.png`} alt="" />
